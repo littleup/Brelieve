@@ -1,0 +1,103 @@
+html, body {
+  overflow-x: hidden;
+  background: #fff3d2;
+}
+
+/* Lists */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+#container {
+  position: relative;
+  padding: 20px 40px;
+  padding-top: 80px;
+}
+
+#homecontainer {
+  position: relative;
+  width: 80%;
+  padding: 125px 225px;
+  padding-top: 20px;
+}
+
+/* Menu Button */
+.menu-btn {
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 30px;
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  border: 0px;
+}
+.menu-btn:hover {
+  opacity: 0.6;
+}
+
+img{
+   	float:left;
+   	margin:0px 0px 0px 0px;
+}
+
+hr {
+height: 1px;
+color: #ff9b54;
+border-color: #ff9b54;
+background-color: #ff9b54;
+border: none;
+clear: both;
+}
+
+/* Header */
+.site-header {
+  position: fixed;
+  background: #f29429;
+  background-image: url("../img/banner_bg.png");
+  color: #FFF;
+  width: 100%;
+  height: 30px;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 9998;
+}
+
+/* Footer */
+.site-footer {
+  position: relative;
+  border-top: 1px solid #EEE;
+  color: #999;
+  padding: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/* Grid Layout */
+
+.col {
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.nofloat {
+	clear: both;
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+/*# sourceMappingURL=demo.css.map */
